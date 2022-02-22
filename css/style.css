@@ -1,0 +1,101 @@
+@import "null.css";
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+.exemple{
+    padding: 50px;
+    
+    font-size: 45px;
+}
+.link{
+    color: red;
+}
+.link:hover{
+    color:green;
+   text-decoration: overline;
+   
+}
+.link:active{
+    color: blue;
+}
+.text{
+    padding: 20px 150px;
+    margin: 20px 50px;
+}
+.text:hover{
+    background-color: aqua;
+
+}
+.text-block p{
+  background-color: blue;
+  margin: 0px 30px 20px 30px ;
+  padding:60px;
+}
+.text-block p:first-child{
+    background-color: bisque;
+}
+.text-block p:last-of-type{
+    background-color: brown;
+}
+
+.text-block p:nth-child(3){
+    background-color: cornflowerblue;
+}
+    
+.pseudo{
+    background-color: aqua;
+    padding: 40px;
+}
+.text-pseudo::first-line{
+    color: blueviolet;
+
+}
+.text-pseudo::first-letter{
+    color: beige;
+}
+.text-pseudo::before{
+    content: "ДО";
+
+}
+.text-pseudo::after{
+    content: "ПОСЛЕ";
+}
+
+    .list-pseudo li{
+        padding: 0px 0px 0px 40px;
+    }
+.list-pseudo li::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin: 10px 0px 0px -20px;
+    display:inline-block;
+    background: url("../img/1969_Chevrolet_Camaro_Street_Rod_1600x1200_wallpaper.jpg")0 0 / 20px no-repeat;
+    
+}
+    
+
+
+    .list-pseudo li:hover::before{
+        transform: scale(1.3);
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
